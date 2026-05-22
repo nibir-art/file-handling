@@ -1,0 +1,10 @@
+import csv
+f = open("student.csv", "w", newline="")
+writer = csv.writer(f)
+writer.writerow(["Roll", "Name", "Marks"])
+writer.writerow([1, "Rahul", 90])
+writer.writerow([2, "Aman", 85])
+writer.writerow([3, "Arjun", 95])
+writer.writerow([4, "Priya", 88])
+f.close()
+print("CSV file created")
