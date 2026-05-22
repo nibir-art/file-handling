@@ -1,0 +1,5 @@
+f=open('input.txt','w+')
+f.write('Hello World')
+f.close()
+f=open('input.txt','r')
+print(f.read())
