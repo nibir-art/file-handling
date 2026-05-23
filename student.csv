@@ -1,5 +1,5 @@
-Roll,Name,Marks
-1,Rahul,90
-2,Aman,85
-3,Arjun,95
-4,Priya,88
+Name,Points,Ranks
+Rahul,90,1
+Aman,85,2
+Arjun,95,1
+Priya,88,3
